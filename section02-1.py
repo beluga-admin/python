@@ -48,6 +48,7 @@ print("Test1: {a: 5d}, Price:{b: 4.2f}" .format(a=776, b=6534.123))
 # \v vertical tab
 # \000 null
 
+
 print("'you'")
 print('\'you\'')
 print('"you"')
