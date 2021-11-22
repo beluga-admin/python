@@ -42,3 +42,37 @@ print(str_o2 + str_o3)
 print(str_o2 * 3)
 print('a' in str_o4)
 print('z' not in str_o4)
+
+# string type convert
+print(str(10) + 'a')
+print(str(10.4) + 'a' + str(20))
+
+# string function
+# refer: https://www.w3schools.com/python/python_ref_string.asp
+
+# a = 'niceman'
+# b = 'orange'
+
+# print(a.islower())
+# print(a.endswith('e'))
+# print(a.replace('nice', 'good'))
+# print(list(reversed(b)))
+
+# string slicing
+a = 'niceman'
+b = 'orange'
+
+print(a[0:3])
+print(a[0:4])
+print(a[0:7])
+print(a[0:len(a)])
+print(a[:4])
+print(b[0:4:2])
+print(b[1:-2])
+print(b[::-1])
+
+
+
+
+
+
