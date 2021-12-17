@@ -33,6 +33,9 @@ def greeting():
     print('Hello Goodboy!')
 
 # class declaration
+def greeting():
+    print('Hello Goodboy!')
+
 class Cookie:
     pass
 
